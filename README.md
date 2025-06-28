@@ -1,5 +1,7 @@
 # explore-ai-engineering
 
+👉 [Basics of LLMs](BasicsOfLLMs.md)
+
 # 🧠 What is MCP (Model Context Protocol)?
 
 **Model Context Protocol (MCP)** is a bridge or communication protocol that allows **LLMs** (like ChatGPT) to interact with external systems in a **structured, programmable** way.
