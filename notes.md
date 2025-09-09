@@ -153,5 +153,32 @@ Refactor all Java classes to remove boilerplate getters, setters, constructors a
 
 ---
 
+## Good prompt vs Bad prompt
+
+Bad Prompt 1:
+Build me an uber clone
+
+Good prompt 1: 
+(if you understand the design and the system, you can guide it
+- Needs three core services: a Rider service, a Driver servive, and a Matching service.
+- Needs a real-time location system (GPT updates, pub/sub messaging).
+- Needs a payment gateway and authentication.
+- It should be event-driven so drivers and riders sync instantly
+)
+
+Generate a microservice for ride-matching that listens to a queue of ride requests and assigns the nearest driver, based on location data from the Rider and Driver services.
+
+---
+
+Bad Prompt 2:
+Make an e-commerce app
+
+Good Prompt 2:
+Generate a checkout service in Python that:
+1. Validates the user's shopping cart,
+2. Connects to Stripe for payment,
+3. Updates the inventory service after successful payment.
+
+---
 
 
